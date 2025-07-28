@@ -98,7 +98,7 @@ Please provide me with a detailed quote. Thank you!`;
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to fix your air conditioning or need a quote? Contact us today for fast, 
-            professional service across KL and PJ.
+            professional service across Klang Valley.
           </p>
         </div>
 
@@ -152,8 +152,11 @@ Please provide me with a detailed quote. Thank you!`;
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Address</h4>
                     <p className="text-gray-700">
-                      Petaling Jaya<br />
+                      Klang Valley<br />
                       Selangor, Malaysia
+                    </p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      Service Areas: Kuala Lumpur City Center, Petaling Jaya, Selangor
                     </p>
                   </div>
                 </div>
@@ -262,6 +265,9 @@ Please provide me with a detailed quote. Thank you!`;
                   <option value="Skyworth AC Installation">Skyworth AC Installation</option>
                   <option value="Overhaul Chemical Wash">Overhaul Chemical Wash</option>
                   <option value="Repair & Troubleshooting">Repair & Troubleshooting</option>
+                  <option value="Water Heater Installation">Water Heater Installation</option>
+                  <option value="Change Light Services">Change Light Services</option>
+                  <option value="Fan Services">Fan Services</option>
                   <option value="Emergency Repair">Emergency Repair</option>
                   <option value="Other">Other</option>
                 </select>

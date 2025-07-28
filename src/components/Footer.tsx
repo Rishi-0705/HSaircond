@@ -22,7 +22,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Professional air conditioning and refrigeration services in KL and PJ. 
+              Professional air conditioning and refrigeration services in Klang Valley. 
               Trusted by hundreds of satisfied customers for reliable, affordable cooling solutions.
             </p>
             <div className="flex space-x-4">
@@ -101,8 +101,9 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
                 <div className="text-gray-300">
-                  <p>Petaling Jaya</p>
+                  <p>Klang Valley</p>
                   <p>Selangor, Malaysia</p>
+                  <p className="text-sm text-gray-400">Service Areas: KLCC, PJ, Selangor</p>
                 </div>
               </div>
             </div>

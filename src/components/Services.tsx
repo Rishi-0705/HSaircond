@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wind, Wrench, Snowflake, Settings, CheckCircle, Clock, Home, Droplets, Zap, Refrigerator, Microwave, Thermometer, Star, Shield } from 'lucide-react';
+import { Wind, Wrench, Snowflake, Settings, CheckCircle, Clock, Home, Droplets, Zap, Refrigerator, Microwave, Thermometer, Star, Shield, Zap as Lightning, Lightbulb } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -20,6 +20,24 @@ const Services = () => {
       title: "Repair & Troubleshooting",
       description: "Comprehensive diagnostic and repair services for all air conditioning issues",
       features: ["Component Replacement", "Emergency Repair Services", "Post-repair Testing", "Comprehensive Warranty"]
+    },
+    {
+      icon: <Lightning className="w-12 h-12 text-orange-600" />,
+      title: "Water Heater Installation",
+      description: "Professional water heater installation and repair services for homes and businesses",
+      features: ["Electric Water Heaters", "Gas Water Heaters", "Tankless Water Heaters", "Professional Installation"]
+    },
+    {
+      icon: <Lightbulb className="w-12 h-12 text-yellow-600" />,
+      title: "Change Light Services",
+      description: "Complete lighting solutions including installation, replacement, and repair services",
+      features: ["LED Lighting Installation", "Light Fixture Replacement", "Emergency Lighting", "Energy-Efficient Solutions"]
+    },
+    {
+      icon: <Wind className="w-12 h-12 text-purple-600" />,
+      title: "Fan Services",
+      description: "Comprehensive fan installation, repair, and maintenance services",
+      features: ["Ceiling Fan Installation", "Exhaust Fan Services", "Industrial Fan Repair", "Regular Maintenance"]
     }
   ];
 
@@ -57,11 +75,11 @@ const Services = () => {
             Our Professional Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive air conditioning and appliance services for homes and businesses across KL and PJ
+            Comprehensive air conditioning and appliance services for homes and businesses across Klang Valley
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}

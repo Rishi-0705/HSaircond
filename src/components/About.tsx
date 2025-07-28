@@ -12,11 +12,11 @@ const About = () => {
               About HS Air Conditioner
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            We are a professional Air Conditioner Services company that based at KL.
+            We are a professional Air Conditioner Services company based in Klang Valley.
 
-We strike to offer the best, professional and affordable services to our customers!
+We strive to offer the best, professional and affordable services to our customers!
 
-We provide varies air-cond related services, included cleaning, installation, repair & etc.
+We provide various air-cond related services, including cleaning, installation, repair, water heater installation, lighting services, and fan services.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -40,12 +40,12 @@ We provide varies air-cond related services, included cleaning, installation, re
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
+                              <div className="flex items-start space-x-4">
                 <MapPin className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Local Expertise</h3>
                   <p className="text-gray-600">
-                    Based in Petaling Jaya, we understand the local climate challenges and provide solutions that work.
+                    Based in Klang Valley, we understand the local climate challenges and provide solutions that work.
                   </p>
                 </div>
               </div>
