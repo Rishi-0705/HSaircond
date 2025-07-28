@@ -141,7 +141,7 @@ Please provide me with a detailed quote. Thank you!`;
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
                     <a href="mailto:hsairconditioner@gmail.com" className="text-purple-600 hover:text-purple-700">
-                    hsairconditioner@gmail.com
+                    hsstyleservices@gmail.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">For quotes and inquiries</p>
                   </div>
