@@ -42,7 +42,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     // Create WhatsApp message
-    const whatsappMessage = `Hello Frosty Air Con!
+    const whatsappMessage = `Hello HS Air Conditioner!
 
 I would like to request a quote for your services:
 
@@ -63,7 +63,7 @@ Please provide me with a detailed quote. Thank you!`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // WhatsApp business number
-    const whatsappNumber = '601115747113';
+    const whatsappNumber = '60126565936';
     
     // Open WhatsApp after a brief delay to show loading state
     setTimeout(() => {
@@ -98,7 +98,7 @@ Please provide me with a detailed quote. Thank you!`;
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to fix your air conditioning or need a quote? Contact us today for fast, 
-            professional service across Kuala Lumpur.
+            professional service across KL and PJ.
           </p>
         </div>
 
@@ -113,8 +113,8 @@ Please provide me with a detailed quote. Thank you!`;
                   <Phone className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                    <a href="tel:+601115747113" className="text-blue-600 hover:text-blue-700">
-                    +60 11-157 47113
+                    <a href="tel:+60126565936" className="text-blue-600 hover:text-blue-700">
+                    +60 12-656 5936
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Available 24/7 for emergencies</p>
                   </div>
@@ -125,12 +125,12 @@ Please provide me with a detailed quote. Thank you!`;
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
                     <a 
-                      href="https://wa.me/601115747113" 
+                      href="https://wa.me/60126565936" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-green-600 hover:text-green-700"
                     >
-                      +60 11-157 47113
+                      +60 12-656 5936
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Quick response via WhatsApp</p>
                   </div>
@@ -140,8 +140,8 @@ Please provide me with a detailed quote. Thank you!`;
                   <Mail className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <a href="mailto:frostyaircon4you@gmail.com" className="text-purple-600 hover:text-purple-700">
-                    frostyaircon4you@gmail.com
+                    <a href="mailto:hsairconditioner@gmail.com" className="text-purple-600 hover:text-purple-700">
+                    hsairconditioner@gmail.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">For quotes and inquiries</p>
                   </div>
@@ -152,10 +152,8 @@ Please provide me with a detailed quote. Thank you!`;
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Address</h4>
                     <p className="text-gray-700">
-                      29 Tkt 2, MWE Commercial Park<br />
-                      Jln 2/33B MWE Commercial Park<br />
-                      52000 Kuala Lumpur<br />
-                      WP Kuala Lumpur
+                      Petaling Jaya<br />
+                      Selangor, Malaysia
                     </p>
                   </div>
                 </div>
@@ -170,7 +168,7 @@ Please provide me with a detailed quote. Thank you!`;
               </p>
               <div className="flex justify-center">
                 <a
-                  href="https://wa.me/601115747113"
+                  href="https://wa.me/60126565936"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors text-center"
@@ -260,10 +258,10 @@ Please provide me with a detailed quote. Thank you!`;
                   }`}
                 >
                   <option value="">Select a service</option>
-                  <option value="Wall Mounted Chemical Services">Wall Mounted Chemical Services</option>
-                  <option value="Wall Mounted Installation">Wall Mounted Installation</option>
-                  <option value="Ceiling Cassette Chemical Services">Ceiling Cassette Chemical Services</option>
-                  <option value="Ceiling Cassette Installation">Ceiling Cassette Installation</option>
+                  <option value="Canvas Wash + Chemical Service">Canvas Wash + Chemical Service</option>
+                  <option value="Skyworth AC Installation">Skyworth AC Installation</option>
+                  <option value="Overhaul Chemical Wash">Overhaul Chemical Wash</option>
+                  <option value="Repair & Troubleshooting">Repair & Troubleshooting</option>
                   <option value="Emergency Repair">Emergency Repair</option>
                   <option value="Other">Other</option>
                 </select>

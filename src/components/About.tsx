@@ -9,11 +9,14 @@ const About = () => {
           {/* Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About Frosty Air Con
+              About HS Air Conditioner
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              We are a trusted air conditioning and refrigeration service company based in Kuala Lumpur, 
-              dedicated to keeping homes and businesses cool and comfortable throughout Malaysia's tropical climate.
+            We are a professional Air Conditioner Services company that based at KL.
+
+We strike to offer the best, professional and affordable services to our customers!
+
+We provide varies air-cond related services, included cleaning, installation, repair & etc.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -42,7 +45,7 @@ const About = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Local Expertise</h3>
                   <p className="text-gray-600">
-                    Based in KL, we understand the local climate challenges and provide solutions that work.
+                    Based in Petaling Jaya, we understand the local climate challenges and provide solutions that work.
                   </p>
                 </div>
               </div>
@@ -68,24 +71,13 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">Mont Kiara & Dutamas</span>
+                  <span className="text-gray-700">Petaling Jaya</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">Bangsar & Mid Valley</span>
+                  <span className="text-gray-700">Selangor</span>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <MapPin className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">Cheras & Ampang</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <MapPin className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">Petaling Jaya & Subang</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <MapPin className="w-5 h-5 text-blue-600" />
-                  <span className="text-gray-700">Shah Alam & Klang</span>
-                </div>
+                
               </div>
             </div>
 

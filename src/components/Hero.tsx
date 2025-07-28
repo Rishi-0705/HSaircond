@@ -64,23 +64,23 @@ const Hero = () => {
           {/* Enhanced Main Headline with staggered animation */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 mb-6 leading-tight">
             <span className="block animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              Professional
+             HS Air Conditioner
             </span>
             <span className="block animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
               <span className="text-blue-600">
-                Air Con
+                Repair
               </span>
               {' '}&{' '}
-              <span className="text-cyan-600">Refrigeration</span>
+              <span className="text-cyan-600">Service</span>
             </span>
             <span className="block animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-              Services in KL
+              
             </span>
           </h1>
 
           {/* Enhanced Subtext */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '1.1s' }}>
-            All types of maintenances & Installations Services available.
+           Professional Aircond Service & Installation for Every Project
           </p>
 
           {/* Service Area & Emergency Info */}

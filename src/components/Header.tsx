@@ -23,13 +23,13 @@ const Header = () => {
               className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer"
             >
               <img 
-                src="/frosty-logo.png" 
-                alt="Frosty Air Con Logo" 
+                src="/hs-air-conditioner-logo.png" 
+                alt="HS Air Conditioner Services Logo" 
                 className="company-logo h-14 w-auto object-contain"
               />
               <div className="company-text hidden sm:flex flex-col">
-                <span className="company-name font-bold text-blue-900 text-base">Frosty Air Con</span>
-                <span className="company-tagline text-gray-600 text-xs">& Refrigerator Service</span>
+                <span className="company-name font-bold text-blue-900 text-base">HS Air Conditioner Services</span>
+                <span className="company-tagline text-gray-600 text-xs">Repair & Service</span>
               </div>
             </button>
           </div>

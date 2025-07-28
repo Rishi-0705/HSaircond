@@ -1,22 +1,22 @@
 import React from 'react';
-import { CheckCircle, Star, Wind, Settings, Droplets, MessageCircle } from 'lucide-react';
+import { CheckCircle, Star, Wind, Settings, Droplets, MessageCircle, DollarSign, Shield, Wrench } from 'lucide-react';
 
 const Pricing = () => {
   // WhatsApp message templates for each service
   const whatsappMessages = [
-    "Hello, I'm interested in Wall Mounted Chemical Services.",
-    "Hello, I'm interested in Wall Mounted Installation service.",
-    "Hello, I'm interested in Ceiling Cassette Chemical Services.",
-    "Hello, I'm interested in Ceiling Cassette Installation service."
+    "Hello, I'm interested in the RM99 Canvas Wash + Chemical Service.",
+    "Hello, I'm interested in Skyworth AC installation service.",
+    "Hello, I'm interested in Overhaul Chemical Wash service.",
+    "Hello, I'm interested in AC repair services."
   ];
 
-  const whatsappNumber = "601115747113";
+  const whatsappNumber = "60126565936";
 
   const pricingPlans = [
     {
       icon: <Droplets className="w-8 h-8 text-blue-600" />,
-      title: "Wall Mounted Chemical Services",
-      description: "Complete chemical cleaning and maintenance for wall mounted units",
+      title: "Canvas Wash + Chemical Service",
+      description: "Complete external and internal cleaning for all wall-mounted units",
       pricing: [
         { hp: "1.0 HP", price: "RM 99" },
         { hp: "1.5 HP", price: "RM 99" },
@@ -24,48 +24,51 @@ const Pricing = () => {
         { hp: "2.5 HP", price: "RM 99" },
         { hp: "3.0 HP", price: "RM 99" }
       ],
-      popular: false,
-      whatsappMessage: whatsappMessages[0]
+      popular: true,
+      whatsappMessage: whatsappMessages[0],
+      features: ["Special Launch Offer", "All horsepower sizes", "45-day water leaking warranty", "Professional canvas protection"]
     },
     {
       icon: <Settings className="w-8 h-8 text-green-600" />,
-      title: "Wall Mounted Installation",
-      description: "Professional installation of wall mounted air conditioning units",
+      title: "Skyworth AC Installation",
+      description: "Professional installation of Skyworth air conditioning units",
       pricing: [
-        { hp: "1.0 HP", price: "RM 195" },
-        { hp: "1.5 HP", price: "RM 195" },
-        { hp: "2.0 HP", price: "RM 245" },
-        { hp: "2.5 HP", price: "RM 245" },
-        { hp: "3.0 HP", price: "RM 245" }
+        { hp: "1.0 HP", price: "Contact Us" },
+        { hp: "1.5 HP", price: "Contact Us" },
+        { hp: "2.0 HP", price: "Contact Us" },
+        { hp: "2.5 HP", price: "Contact Us" }
       ],
       popular: false,
-      whatsappMessage: whatsappMessages[1]
+      whatsappMessage: whatsappMessages[1],
+      features: ["3 Years General Warranty", "10 Years Compressor Warranty", "Professional installation", "Inverter & Non-Inverter models"]
     },
     {
       icon: <Droplets className="w-8 h-8 text-cyan-600" />,
-      title: "Ceiling Cassette Chemical Services",
-      description: "Deep cleaning and chemical servicing for ceiling cassette units",
+      title: "Overhaul Chemical Wash",
+      description: "Deep cleaning service for 1.0-1.5HP units with complete dismantling",
       pricing: [
-        { hp: "1.5 HP", price: "RM 189" },
-        { hp: "2.0 HP", price: "RM 189" },
-        { hp: "2.5 HP", price: "RM 189" },
-        { hp: "3.0 HP", price: "RM 189" }
+        { hp: "1.0-1.5 HP", price: "RM 160" },
+        { hp: "For 3+ units", price: "Special Rate" },
+        { hp: "Complete dismantling", price: "Included" },
+        { hp: "45-day warranty", price: "Included" }
       ],
       popular: false,
-      whatsappMessage: whatsappMessages[2]
+      whatsappMessage: whatsappMessages[2],
+      features: ["Starting from RM160", "For 3 units or more", "Complete dismantling", "Before and after comparison"]
     },
     {
-      icon: <Settings className="w-8 h-8 text-purple-600" />,
-      title: "Ceiling Cassette Installation",
-      description: "Expert installation of ceiling cassette air conditioning systems",
+      icon: <Wrench className="w-8 h-8 text-purple-600" />,
+      title: "Repair & Troubleshooting",
+      description: "Comprehensive diagnostic and repair services",
       pricing: [
-        { hp: "1.5 HP", price: "RM 250" },
-        { hp: "2.0 HP", price: "RM 290" },
-        { hp: "2.5 HP", price: "RM 330" },
-        { hp: "3.0 HP", price: "RM 370" }
+        { hp: "Diagnostic", price: "Contact Us" },
+        { hp: "Component Repair", price: "Contact Us" },
+        { hp: "Emergency Service", price: "Available" },
+        { hp: "Warranty", price: "Included" }
       ],
       popular: false,
-      whatsappMessage: whatsappMessages[3]
+      whatsappMessage: whatsappMessages[3],
+      features: ["Comprehensive diagnostics", "Component replacement", "Emergency services", "Post-repair testing"]
     }
   ];
 
@@ -83,7 +86,7 @@ const Pricing = () => {
             Transparent Pricing
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            No hidden fees, no surprises. Get professional air conditioning services at competitive rates.
+            No hidden fees, no deposits required. Get professional air conditioning services at competitive rates.
           </p>
         </div>
 
@@ -101,7 +104,7 @@ const Pricing = () => {
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <div className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center space-x-1">
                     <Star className="w-4 h-4" />
-                    <span>Most Popular</span>
+                    <span>Special Offer</span>
                   </div>
                 </div>
               )}
@@ -122,7 +125,7 @@ const Pricing = () => {
               <div className="mb-6">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <div className="grid grid-cols-2 gap-2 text-sm font-semibold text-gray-700 mb-2">
-                    <div>Capacity</div>
+                    <div>Service</div>
                     <div className="text-right">Price</div>
                   </div>
                   <div className="space-y-2">
@@ -134,9 +137,18 @@ const Pricing = () => {
                     ))}
                   </div>
                 </div>
-                <p className="text-xs text-gray-500 text-center mt-2">
-                  All prices include basic materials and labor
-                </p>
+              </div>
+
+              {/* Features */}
+              <div className="mb-6">
+                <ul className="space-y-2">
+                  {plan.features.map((feature, featureIndex) => (
+                    <li key={featureIndex} className="flex items-center space-x-2">
+                      <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                      <span className="text-sm text-gray-600">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               <button 
@@ -154,6 +166,38 @@ const Pricing = () => {
           ))}
         </div>
 
+        {/* Payment Terms */}
+        <div className="mt-16 bg-green-50 rounded-2xl p-8">
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Payment Terms
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="flex items-center justify-center space-x-3">
+                <DollarSign className="w-8 h-8 text-green-600" />
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-900">No Deposit Required</h4>
+                  <p className="text-sm text-gray-600">Start service without upfront payment</p>
+                </div>
+              </div>
+              <div className="flex items-center justify-center space-x-3">
+                <Shield className="w-8 h-8 text-blue-600" />
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-900">Transparent Pricing</h4>
+                  <p className="text-sm text-gray-600">No hidden fees or surprises</p>
+                </div>
+              </div>
+              <div className="flex items-center justify-center space-x-3">
+                <CheckCircle className="w-8 h-8 text-green-600" />
+                <div className="text-left">
+                  <h4 className="font-semibold text-gray-900">Pay Upon Completion</h4>
+                  <p className="text-sm text-gray-600">Payment after satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Additional Info */}
         <div className="mt-16 bg-blue-50 rounded-2xl p-8">
           <div className="text-center">
@@ -167,7 +211,7 @@ const Pricing = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               
               <a
-                href="https://wa.me/601115747113"
+                href="https://wa.me/60126565936"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
